@@ -16,6 +16,10 @@ This is a simple YouTube downloader script written in Python. It uses the pytube
 
   - Required Python packages (install using pip install -r requirements.txt)
 
+## Demo
+
+![Demo](tube_downloader_demo.mp4)
+
 ## How to Use
 
 Clone the Repository:
