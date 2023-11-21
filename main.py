@@ -107,7 +107,7 @@ if __name__ == "__main__":
         link: str = input("Enter the Youtube Link : ")
         yt_link = YouTube(link)
         content_details(yt_link)
-        choice: int = int(input("What You Want to Download\n1. Video\n2. Audio")) - 1
+        choice: int = int(input("What You Want to Download\n1. Video\n2. Audio\n")) - 1
         choose_quality(yt_link, audio=bool(choice))
     except pytube.exceptions.RegexMatchError:
         print("Sorry!! Invalid Link!!")
